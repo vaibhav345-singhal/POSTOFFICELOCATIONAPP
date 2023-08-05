@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Post Office Location</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="one">
+        <p>IP Address:</p>
+        <br />
+        <div class="geo-info">
+          <p>Lat:</p>
+          <p>City:</p>
+          <p>Organization:</p>
+          <p>Long:</p>
+          <p>Region:</p>
+          <p>Hostname:</p>
+        </div>
+      </div>
+      <div class="two">
+        <h1>Your Current Location</h1>
+        <div id="map"></div>
+      </div>
+      <div class="three">
+        <h1>More information About You</h1>
+        <h3>Time Zone :</h3>
+        <h3>Date And Time :</h3>
+        <h3>PinCode:</h3>
+        <h3>Message: Number Of pincode(s) found:</h3>
+      </div>
+      <div class="four">
+        <h1>Post Offices Near You</h1>
+        <div class="search-container">
+          <input type="text" id="searchBox" placeholder="Search By Name" />
+          <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="post-div">
+          <p>Name :</p>
+          <p>Branch Type:</p>
+          <p>Delivery Status :</p>
+          <p>District:</p>
+          <p>Division:</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
